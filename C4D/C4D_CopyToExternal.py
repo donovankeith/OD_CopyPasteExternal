@@ -1,7 +1,10 @@
+"""Name-US: Copy to External
+Description-US: Copies selected objects to system clipboard so you can "Paste from External" in other applications.
+"""
+
 import c4d
 import tempfile, os
 from c4d import documents, plugins
-#Welcome to the world of Python
 
 def objToVertData(inputfile):
   output = ""
